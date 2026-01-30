@@ -3,6 +3,11 @@
   "version": "0.1.0",
   "private": true,
 
+  "engines": {
+  "node": "18.x"
+},
+
+
   "dependencies": {
     "@hookform/resolvers": "^5.0.1",
     "@radix-ui/react-accordion": "^1.2.8",
@@ -101,3 +106,4 @@
 
   "packageManager": "yarn@1.22.22"
 }
+
