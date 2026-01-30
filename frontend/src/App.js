@@ -15,7 +15,6 @@ import { VolunteerDashboard } from './pages/VolunteerDashboard';
 import { AdminDashboard } from './pages/AdminDashboard';
 import { LandingPage } from './pages/LandingPage';
 
-
 import '@/App.css';
 
 function App() {
@@ -31,15 +30,6 @@ function App() {
           <Route path="/admin-login" element={<AdminLogin />} />
 
           {/* Onboarding Routes */}
-          <Route
-            path="/verify-phone"
-            element={
-              <ProtectedRoute>
-                <VerifyPhone />
-              </ProtectedRoute>
-            }
-          />
-
           <Route
             path="/select-role"
             element={
@@ -86,25 +76,6 @@ function App() {
             }
           />
 
-          {/* Common Protected Pages */}
-          <Route
-            path="/analytics"
-            element={
-              <ProtectedRoute>
-                <Analytics />
-              </ProtectedRoute>
-            }
-          />
-
-          <Route
-            path="/profile"
-            element={
-              <ProtectedRoute>
-                <Profile />
-              </ProtectedRoute>
-            }
-          />
-
           {/* Fallback */}
           <Route path="*" element={<Navigate to="/" replace />} />
         </Routes>
@@ -114,4 +85,3 @@ function App() {
 }
 
 export default App;
-
