@@ -8,14 +8,13 @@ import { Toaster } from './components/ui/sonner';
 import { Home } from './pages/Home';
 import { Auth } from './pages/Auth';
 import { AdminLogin } from './pages/AdminLogin';
-import { VerifyPhone } from './pages/VerifyPhone';
 import { SelectRole } from './pages/SelectRole';
 import { NGODashboard } from './pages/NGODashboard';
 import { DonorDashboard } from './pages/DonorDashboard';
 import { VolunteerDashboard } from './pages/VolunteerDashboard';
 import { AdminDashboard } from './pages/AdminDashboard';
-import { Analytics } from './pages/Analytics';
-import { Profile } from './pages/Profile';
+import { LandingPage } from './pages/LandingPage';
+
 
 import '@/App.css';
 
@@ -115,3 +114,4 @@ function App() {
 }
 
 export default App;
+
